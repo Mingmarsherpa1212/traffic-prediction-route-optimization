@@ -1,0 +1,505 @@
+location,latitude,longitude,day,time_period,weather,traffic_level,data_source
+Kumarigal,27.7167,85.3436,Monday,Morning,Sunny,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Monday,Morning,Cloudy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Monday,Morning,Rainy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Monday,Afternoon,Sunny,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Monday,Afternoon,Cloudy,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Monday,Afternoon,Rainy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Monday,Evening,Sunny,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Monday,Evening,Cloudy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Monday,Evening,Rainy,High,synthetic_demo
+Kumarigal,27.7167,85.3436,Monday,Night,Sunny,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Monday,Night,Cloudy,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Monday,Night,Rainy,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Tuesday,Morning,Sunny,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Tuesday,Morning,Cloudy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Tuesday,Morning,Rainy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Tuesday,Afternoon,Sunny,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Tuesday,Afternoon,Cloudy,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Tuesday,Afternoon,Rainy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Tuesday,Evening,Sunny,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Tuesday,Evening,Cloudy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Tuesday,Evening,Rainy,High,synthetic_demo
+Kumarigal,27.7167,85.3436,Tuesday,Night,Sunny,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Tuesday,Night,Cloudy,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Tuesday,Night,Rainy,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Wednesday,Morning,Sunny,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Wednesday,Morning,Cloudy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Wednesday,Morning,Rainy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Wednesday,Afternoon,Sunny,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Wednesday,Afternoon,Cloudy,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Wednesday,Afternoon,Rainy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Wednesday,Evening,Sunny,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Wednesday,Evening,Cloudy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Wednesday,Evening,Rainy,High,synthetic_demo
+Kumarigal,27.7167,85.3436,Wednesday,Night,Sunny,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Wednesday,Night,Cloudy,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Wednesday,Night,Rainy,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Thursday,Morning,Sunny,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Thursday,Morning,Cloudy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Thursday,Morning,Rainy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Thursday,Afternoon,Sunny,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Thursday,Afternoon,Cloudy,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Thursday,Afternoon,Rainy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Thursday,Evening,Sunny,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Thursday,Evening,Cloudy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Thursday,Evening,Rainy,High,synthetic_demo
+Kumarigal,27.7167,85.3436,Thursday,Night,Sunny,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Thursday,Night,Cloudy,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Thursday,Night,Rainy,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Friday,Morning,Sunny,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Friday,Morning,Cloudy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Friday,Morning,Rainy,High,synthetic_demo
+Kumarigal,27.7167,85.3436,Friday,Afternoon,Sunny,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Friday,Afternoon,Cloudy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Friday,Afternoon,Rainy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Friday,Evening,Sunny,High,synthetic_demo
+Kumarigal,27.7167,85.3436,Friday,Evening,Cloudy,High,synthetic_demo
+Kumarigal,27.7167,85.3436,Friday,Evening,Rainy,High,synthetic_demo
+Kumarigal,27.7167,85.3436,Friday,Night,Sunny,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Friday,Night,Cloudy,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Friday,Night,Rainy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Saturday,Morning,Sunny,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Saturday,Morning,Cloudy,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Saturday,Morning,Rainy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Saturday,Afternoon,Sunny,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Saturday,Afternoon,Cloudy,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Saturday,Afternoon,Rainy,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Saturday,Evening,Sunny,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Saturday,Evening,Cloudy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Saturday,Evening,Rainy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Saturday,Night,Sunny,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Saturday,Night,Cloudy,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Saturday,Night,Rainy,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Sunday,Morning,Sunny,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Sunday,Morning,Cloudy,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Sunday,Morning,Rainy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Sunday,Afternoon,Sunny,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Sunday,Afternoon,Cloudy,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Sunday,Afternoon,Rainy,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Sunday,Evening,Sunny,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Sunday,Evening,Cloudy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Sunday,Evening,Rainy,Medium,synthetic_demo
+Kumarigal,27.7167,85.3436,Sunday,Night,Sunny,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Sunday,Night,Cloudy,Low,synthetic_demo
+Kumarigal,27.7167,85.3436,Sunday,Night,Rainy,Low,synthetic_demo
+Chabahil,27.7172,85.3478,Monday,Morning,Sunny,High,synthetic_demo
+Chabahil,27.7172,85.3478,Monday,Morning,Cloudy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Monday,Morning,Rainy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Monday,Afternoon,Sunny,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Monday,Afternoon,Cloudy,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Monday,Afternoon,Rainy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Monday,Evening,Sunny,High,synthetic_demo
+Chabahil,27.7172,85.3478,Monday,Evening,Cloudy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Monday,Evening,Rainy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Monday,Night,Sunny,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Monday,Night,Cloudy,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Monday,Night,Rainy,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Tuesday,Morning,Sunny,High,synthetic_demo
+Chabahil,27.7172,85.3478,Tuesday,Morning,Cloudy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Tuesday,Morning,Rainy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Tuesday,Afternoon,Sunny,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Tuesday,Afternoon,Cloudy,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Tuesday,Afternoon,Rainy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Tuesday,Evening,Sunny,High,synthetic_demo
+Chabahil,27.7172,85.3478,Tuesday,Evening,Cloudy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Tuesday,Evening,Rainy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Tuesday,Night,Sunny,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Tuesday,Night,Cloudy,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Tuesday,Night,Rainy,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Wednesday,Morning,Sunny,High,synthetic_demo
+Chabahil,27.7172,85.3478,Wednesday,Morning,Cloudy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Wednesday,Morning,Rainy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Wednesday,Afternoon,Sunny,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Wednesday,Afternoon,Cloudy,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Wednesday,Afternoon,Rainy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Wednesday,Evening,Sunny,High,synthetic_demo
+Chabahil,27.7172,85.3478,Wednesday,Evening,Cloudy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Wednesday,Evening,Rainy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Wednesday,Night,Sunny,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Wednesday,Night,Cloudy,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Wednesday,Night,Rainy,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Thursday,Morning,Sunny,High,synthetic_demo
+Chabahil,27.7172,85.3478,Thursday,Morning,Cloudy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Thursday,Morning,Rainy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Thursday,Afternoon,Sunny,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Thursday,Afternoon,Cloudy,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Thursday,Afternoon,Rainy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Thursday,Evening,Sunny,High,synthetic_demo
+Chabahil,27.7172,85.3478,Thursday,Evening,Cloudy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Thursday,Evening,Rainy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Thursday,Night,Sunny,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Thursday,Night,Cloudy,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Thursday,Night,Rainy,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Friday,Morning,Sunny,High,synthetic_demo
+Chabahil,27.7172,85.3478,Friday,Morning,Cloudy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Friday,Morning,Rainy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Friday,Afternoon,Sunny,High,synthetic_demo
+Chabahil,27.7172,85.3478,Friday,Afternoon,Cloudy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Friday,Afternoon,Rainy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Friday,Evening,Sunny,High,synthetic_demo
+Chabahil,27.7172,85.3478,Friday,Evening,Cloudy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Friday,Evening,Rainy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Friday,Night,Sunny,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Friday,Night,Cloudy,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Friday,Night,Rainy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Saturday,Morning,Sunny,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Saturday,Morning,Cloudy,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Saturday,Morning,Rainy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Saturday,Afternoon,Sunny,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Saturday,Afternoon,Cloudy,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Saturday,Afternoon,Rainy,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Saturday,Evening,Sunny,High,synthetic_demo
+Chabahil,27.7172,85.3478,Saturday,Evening,Cloudy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Saturday,Evening,Rainy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Saturday,Night,Sunny,Low,synthetic_demo
+Chabahil,27.7172,85.3478,Saturday,Night,Cloudy,Low,synthetic_demo
+Chabahil,27.7172,85.3478,Saturday,Night,Rainy,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Sunday,Morning,Sunny,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Sunday,Morning,Cloudy,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Sunday,Morning,Rainy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Sunday,Afternoon,Sunny,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Sunday,Afternoon,Cloudy,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Sunday,Afternoon,Rainy,Medium,synthetic_demo
+Chabahil,27.7172,85.3478,Sunday,Evening,Sunny,High,synthetic_demo
+Chabahil,27.7172,85.3478,Sunday,Evening,Cloudy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Sunday,Evening,Rainy,High,synthetic_demo
+Chabahil,27.7172,85.3478,Sunday,Night,Sunny,Low,synthetic_demo
+Chabahil,27.7172,85.3478,Sunday,Night,Cloudy,Low,synthetic_demo
+Chabahil,27.7172,85.3478,Sunday,Night,Rainy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Monday,Morning,Sunny,Medium,synthetic_demo
+Boudha,27.7215,85.362,Monday,Morning,Cloudy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Monday,Morning,Rainy,High,synthetic_demo
+Boudha,27.7215,85.362,Monday,Afternoon,Sunny,Medium,synthetic_demo
+Boudha,27.7215,85.362,Monday,Afternoon,Cloudy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Monday,Afternoon,Rainy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Monday,Evening,Sunny,High,synthetic_demo
+Boudha,27.7215,85.362,Monday,Evening,Cloudy,High,synthetic_demo
+Boudha,27.7215,85.362,Monday,Evening,Rainy,High,synthetic_demo
+Boudha,27.7215,85.362,Monday,Night,Sunny,Low,synthetic_demo
+Boudha,27.7215,85.362,Monday,Night,Cloudy,Low,synthetic_demo
+Boudha,27.7215,85.362,Monday,Night,Rainy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Tuesday,Morning,Sunny,Medium,synthetic_demo
+Boudha,27.7215,85.362,Tuesday,Morning,Cloudy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Tuesday,Morning,Rainy,High,synthetic_demo
+Boudha,27.7215,85.362,Tuesday,Afternoon,Sunny,Medium,synthetic_demo
+Boudha,27.7215,85.362,Tuesday,Afternoon,Cloudy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Tuesday,Afternoon,Rainy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Tuesday,Evening,Sunny,High,synthetic_demo
+Boudha,27.7215,85.362,Tuesday,Evening,Cloudy,High,synthetic_demo
+Boudha,27.7215,85.362,Tuesday,Evening,Rainy,High,synthetic_demo
+Boudha,27.7215,85.362,Tuesday,Night,Sunny,Low,synthetic_demo
+Boudha,27.7215,85.362,Tuesday,Night,Cloudy,Low,synthetic_demo
+Boudha,27.7215,85.362,Tuesday,Night,Rainy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Wednesday,Morning,Sunny,Medium,synthetic_demo
+Boudha,27.7215,85.362,Wednesday,Morning,Cloudy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Wednesday,Morning,Rainy,High,synthetic_demo
+Boudha,27.7215,85.362,Wednesday,Afternoon,Sunny,Medium,synthetic_demo
+Boudha,27.7215,85.362,Wednesday,Afternoon,Cloudy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Wednesday,Afternoon,Rainy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Wednesday,Evening,Sunny,High,synthetic_demo
+Boudha,27.7215,85.362,Wednesday,Evening,Cloudy,High,synthetic_demo
+Boudha,27.7215,85.362,Wednesday,Evening,Rainy,High,synthetic_demo
+Boudha,27.7215,85.362,Wednesday,Night,Sunny,Low,synthetic_demo
+Boudha,27.7215,85.362,Wednesday,Night,Cloudy,Low,synthetic_demo
+Boudha,27.7215,85.362,Wednesday,Night,Rainy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Thursday,Morning,Sunny,Medium,synthetic_demo
+Boudha,27.7215,85.362,Thursday,Morning,Cloudy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Thursday,Morning,Rainy,High,synthetic_demo
+Boudha,27.7215,85.362,Thursday,Afternoon,Sunny,Medium,synthetic_demo
+Boudha,27.7215,85.362,Thursday,Afternoon,Cloudy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Thursday,Afternoon,Rainy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Thursday,Evening,Sunny,High,synthetic_demo
+Boudha,27.7215,85.362,Thursday,Evening,Cloudy,High,synthetic_demo
+Boudha,27.7215,85.362,Thursday,Evening,Rainy,High,synthetic_demo
+Boudha,27.7215,85.362,Thursday,Night,Sunny,Low,synthetic_demo
+Boudha,27.7215,85.362,Thursday,Night,Cloudy,Low,synthetic_demo
+Boudha,27.7215,85.362,Thursday,Night,Rainy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Friday,Morning,Sunny,High,synthetic_demo
+Boudha,27.7215,85.362,Friday,Morning,Cloudy,High,synthetic_demo
+Boudha,27.7215,85.362,Friday,Morning,Rainy,High,synthetic_demo
+Boudha,27.7215,85.362,Friday,Afternoon,Sunny,Medium,synthetic_demo
+Boudha,27.7215,85.362,Friday,Afternoon,Cloudy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Friday,Afternoon,Rainy,High,synthetic_demo
+Boudha,27.7215,85.362,Friday,Evening,Sunny,High,synthetic_demo
+Boudha,27.7215,85.362,Friday,Evening,Cloudy,High,synthetic_demo
+Boudha,27.7215,85.362,Friday,Evening,Rainy,High,synthetic_demo
+Boudha,27.7215,85.362,Friday,Night,Sunny,Medium,synthetic_demo
+Boudha,27.7215,85.362,Friday,Night,Cloudy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Friday,Night,Rainy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Saturday,Morning,Sunny,Medium,synthetic_demo
+Boudha,27.7215,85.362,Saturday,Morning,Cloudy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Saturday,Morning,Rainy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Saturday,Afternoon,Sunny,Low,synthetic_demo
+Boudha,27.7215,85.362,Saturday,Afternoon,Cloudy,Low,synthetic_demo
+Boudha,27.7215,85.362,Saturday,Afternoon,Rainy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Saturday,Evening,Sunny,Medium,synthetic_demo
+Boudha,27.7215,85.362,Saturday,Evening,Cloudy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Saturday,Evening,Rainy,High,synthetic_demo
+Boudha,27.7215,85.362,Saturday,Night,Sunny,Low,synthetic_demo
+Boudha,27.7215,85.362,Saturday,Night,Cloudy,Low,synthetic_demo
+Boudha,27.7215,85.362,Saturday,Night,Rainy,Low,synthetic_demo
+Boudha,27.7215,85.362,Sunday,Morning,Sunny,Medium,synthetic_demo
+Boudha,27.7215,85.362,Sunday,Morning,Cloudy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Sunday,Morning,Rainy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Sunday,Afternoon,Sunny,Low,synthetic_demo
+Boudha,27.7215,85.362,Sunday,Afternoon,Cloudy,Low,synthetic_demo
+Boudha,27.7215,85.362,Sunday,Afternoon,Rainy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Sunday,Evening,Sunny,Medium,synthetic_demo
+Boudha,27.7215,85.362,Sunday,Evening,Cloudy,Medium,synthetic_demo
+Boudha,27.7215,85.362,Sunday,Evening,Rainy,High,synthetic_demo
+Boudha,27.7215,85.362,Sunday,Night,Sunny,Low,synthetic_demo
+Boudha,27.7215,85.362,Sunday,Night,Cloudy,Low,synthetic_demo
+Boudha,27.7215,85.362,Sunday,Night,Rainy,Low,synthetic_demo
+Jorpati,27.724,85.371,Monday,Morning,Sunny,Medium,synthetic_demo
+Jorpati,27.724,85.371,Monday,Morning,Cloudy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Monday,Morning,Rainy,High,synthetic_demo
+Jorpati,27.724,85.371,Monday,Afternoon,Sunny,Medium,synthetic_demo
+Jorpati,27.724,85.371,Monday,Afternoon,Cloudy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Monday,Afternoon,Rainy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Monday,Evening,Sunny,High,synthetic_demo
+Jorpati,27.724,85.371,Monday,Evening,Cloudy,High,synthetic_demo
+Jorpati,27.724,85.371,Monday,Evening,Rainy,High,synthetic_demo
+Jorpati,27.724,85.371,Monday,Night,Sunny,Low,synthetic_demo
+Jorpati,27.724,85.371,Monday,Night,Cloudy,Low,synthetic_demo
+Jorpati,27.724,85.371,Monday,Night,Rainy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Tuesday,Morning,Sunny,Medium,synthetic_demo
+Jorpati,27.724,85.371,Tuesday,Morning,Cloudy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Tuesday,Morning,Rainy,High,synthetic_demo
+Jorpati,27.724,85.371,Tuesday,Afternoon,Sunny,Medium,synthetic_demo
+Jorpati,27.724,85.371,Tuesday,Afternoon,Cloudy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Tuesday,Afternoon,Rainy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Tuesday,Evening,Sunny,High,synthetic_demo
+Jorpati,27.724,85.371,Tuesday,Evening,Cloudy,High,synthetic_demo
+Jorpati,27.724,85.371,Tuesday,Evening,Rainy,High,synthetic_demo
+Jorpati,27.724,85.371,Tuesday,Night,Sunny,Low,synthetic_demo
+Jorpati,27.724,85.371,Tuesday,Night,Cloudy,Low,synthetic_demo
+Jorpati,27.724,85.371,Tuesday,Night,Rainy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Wednesday,Morning,Sunny,Medium,synthetic_demo
+Jorpati,27.724,85.371,Wednesday,Morning,Cloudy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Wednesday,Morning,Rainy,High,synthetic_demo
+Jorpati,27.724,85.371,Wednesday,Afternoon,Sunny,Medium,synthetic_demo
+Jorpati,27.724,85.371,Wednesday,Afternoon,Cloudy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Wednesday,Afternoon,Rainy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Wednesday,Evening,Sunny,High,synthetic_demo
+Jorpati,27.724,85.371,Wednesday,Evening,Cloudy,High,synthetic_demo
+Jorpati,27.724,85.371,Wednesday,Evening,Rainy,High,synthetic_demo
+Jorpati,27.724,85.371,Wednesday,Night,Sunny,Low,synthetic_demo
+Jorpati,27.724,85.371,Wednesday,Night,Cloudy,Low,synthetic_demo
+Jorpati,27.724,85.371,Wednesday,Night,Rainy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Thursday,Morning,Sunny,Medium,synthetic_demo
+Jorpati,27.724,85.371,Thursday,Morning,Cloudy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Thursday,Morning,Rainy,High,synthetic_demo
+Jorpati,27.724,85.371,Thursday,Afternoon,Sunny,Medium,synthetic_demo
+Jorpati,27.724,85.371,Thursday,Afternoon,Cloudy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Thursday,Afternoon,Rainy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Thursday,Evening,Sunny,High,synthetic_demo
+Jorpati,27.724,85.371,Thursday,Evening,Cloudy,High,synthetic_demo
+Jorpati,27.724,85.371,Thursday,Evening,Rainy,High,synthetic_demo
+Jorpati,27.724,85.371,Thursday,Night,Sunny,Low,synthetic_demo
+Jorpati,27.724,85.371,Thursday,Night,Cloudy,Low,synthetic_demo
+Jorpati,27.724,85.371,Thursday,Night,Rainy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Friday,Morning,Sunny,High,synthetic_demo
+Jorpati,27.724,85.371,Friday,Morning,Cloudy,High,synthetic_demo
+Jorpati,27.724,85.371,Friday,Morning,Rainy,High,synthetic_demo
+Jorpati,27.724,85.371,Friday,Afternoon,Sunny,Medium,synthetic_demo
+Jorpati,27.724,85.371,Friday,Afternoon,Cloudy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Friday,Afternoon,Rainy,High,synthetic_demo
+Jorpati,27.724,85.371,Friday,Evening,Sunny,High,synthetic_demo
+Jorpati,27.724,85.371,Friday,Evening,Cloudy,High,synthetic_demo
+Jorpati,27.724,85.371,Friday,Evening,Rainy,High,synthetic_demo
+Jorpati,27.724,85.371,Friday,Night,Sunny,Medium,synthetic_demo
+Jorpati,27.724,85.371,Friday,Night,Cloudy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Friday,Night,Rainy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Saturday,Morning,Sunny,Medium,synthetic_demo
+Jorpati,27.724,85.371,Saturday,Morning,Cloudy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Saturday,Morning,Rainy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Saturday,Afternoon,Sunny,Low,synthetic_demo
+Jorpati,27.724,85.371,Saturday,Afternoon,Cloudy,Low,synthetic_demo
+Jorpati,27.724,85.371,Saturday,Afternoon,Rainy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Saturday,Evening,Sunny,Medium,synthetic_demo
+Jorpati,27.724,85.371,Saturday,Evening,Cloudy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Saturday,Evening,Rainy,High,synthetic_demo
+Jorpati,27.724,85.371,Saturday,Night,Sunny,Low,synthetic_demo
+Jorpati,27.724,85.371,Saturday,Night,Cloudy,Low,synthetic_demo
+Jorpati,27.724,85.371,Saturday,Night,Rainy,Low,synthetic_demo
+Jorpati,27.724,85.371,Sunday,Morning,Sunny,Medium,synthetic_demo
+Jorpati,27.724,85.371,Sunday,Morning,Cloudy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Sunday,Morning,Rainy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Sunday,Afternoon,Sunny,Low,synthetic_demo
+Jorpati,27.724,85.371,Sunday,Afternoon,Cloudy,Low,synthetic_demo
+Jorpati,27.724,85.371,Sunday,Afternoon,Rainy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Sunday,Evening,Sunny,Medium,synthetic_demo
+Jorpati,27.724,85.371,Sunday,Evening,Cloudy,Medium,synthetic_demo
+Jorpati,27.724,85.371,Sunday,Evening,Rainy,High,synthetic_demo
+Jorpati,27.724,85.371,Sunday,Night,Sunny,Low,synthetic_demo
+Jorpati,27.724,85.371,Sunday,Night,Cloudy,Low,synthetic_demo
+Jorpati,27.724,85.371,Sunday,Night,Rainy,Low,synthetic_demo
+Naya Basti,27.729,85.3545,Monday,Morning,Sunny,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Monday,Morning,Cloudy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Monday,Morning,Rainy,High,synthetic_demo
+Naya Basti,27.729,85.3545,Monday,Afternoon,Sunny,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Monday,Afternoon,Cloudy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Monday,Afternoon,Rainy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Monday,Evening,Sunny,High,synthetic_demo
+Naya Basti,27.729,85.3545,Monday,Evening,Cloudy,High,synthetic_demo
+Naya Basti,27.729,85.3545,Monday,Evening,Rainy,High,synthetic_demo
+Naya Basti,27.729,85.3545,Monday,Night,Sunny,Low,synthetic_demo
+Naya Basti,27.729,85.3545,Monday,Night,Cloudy,Low,synthetic_demo
+Naya Basti,27.729,85.3545,Monday,Night,Rainy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Tuesday,Morning,Sunny,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Tuesday,Morning,Cloudy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Tuesday,Morning,Rainy,High,synthetic_demo
+Naya Basti,27.729,85.3545,Tuesday,Afternoon,Sunny,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Tuesday,Afternoon,Cloudy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Tuesday,Afternoon,Rainy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Tuesday,Evening,Sunny,High,synthetic_demo
+Naya Basti,27.729,85.3545,Tuesday,Evening,Cloudy,High,synthetic_demo
+Naya Basti,27.729,85.3545,Tuesday,Evening,Rainy,High,synthetic_demo
+Naya Basti,27.729,85.3545,Tuesday,Night,Sunny,Low,synthetic_demo
+Naya Basti,27.729,85.3545,Tuesday,Night,Cloudy,Low,synthetic_demo
+Naya Basti,27.729,85.3545,Tuesday,Night,Rainy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Wednesday,Morning,Sunny,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Wednesday,Morning,Cloudy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Wednesday,Morning,Rainy,High,synthetic_demo
+Naya Basti,27.729,85.3545,Wednesday,Afternoon,Sunny,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Wednesday,Afternoon,Cloudy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Wednesday,Afternoon,Rainy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Wednesday,Evening,Sunny,High,synthetic_demo
+Naya Basti,27.729,85.3545,Wednesday,Evening,Cloudy,High,synthetic_demo
+Naya Basti,27.729,85.3545,Wednesday,Evening,Rainy,High,synthetic_demo
+Naya Basti,27.729,85.3545,Wednesday,Night,Sunny,Low,synthetic_demo
+Naya Basti,27.729,85.3545,Wednesday,Night,Cloudy,Low,synthetic_demo
+Naya Basti,27.729,85.3545,Wednesday,Night,Rainy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Thursday,Morning,Sunny,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Thursday,Morning,Cloudy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Thursday,Morning,Rainy,High,synthetic_demo
+Naya Basti,27.729,85.3545,Thursday,Afternoon,Sunny,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Thursday,Afternoon,Cloudy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Thursday,Afternoon,Rainy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Thursday,Evening,Sunny,High,synthetic_demo
+Naya Basti,27.729,85.3545,Thursday,Evening,Cloudy,High,synthetic_demo
+Naya Basti,27.729,85.3545,Thursday,Evening,Rainy,High,synthetic_demo
+Naya Basti,27.729,85.3545,Thursday,Night,Sunny,Low,synthetic_demo
+Naya Basti,27.729,85.3545,Thursday,Night,Cloudy,Low,synthetic_demo
+Naya Basti,27.729,85.3545,Thursday,Night,Rainy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Friday,Morning,Sunny,High,synthetic_demo
+Naya Basti,27.729,85.3545,Friday,Morning,Cloudy,High,synthetic_demo
+Naya Basti,27.729,85.3545,Friday,Morning,Rainy,High,synthetic_demo
+Naya Basti,27.729,85.3545,Friday,Afternoon,Sunny,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Friday,Afternoon,Cloudy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Friday,Afternoon,Rainy,High,synthetic_demo
+Naya Basti,27.729,85.3545,Friday,Evening,Sunny,High,synthetic_demo
+Naya Basti,27.729,85.3545,Friday,Evening,Cloudy,High,synthetic_demo
+Naya Basti,27.729,85.3545,Friday,Evening,Rainy,High,synthetic_demo
+Naya Basti,27.729,85.3545,Friday,Night,Sunny,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Friday,Night,Cloudy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Friday,Night,Rainy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Saturday,Morning,Sunny,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Saturday,Morning,Cloudy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Saturday,Morning,Rainy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Saturday,Afternoon,Sunny,Low,synthetic_demo
+Naya Basti,27.729,85.3545,Saturday,Afternoon,Cloudy,Low,synthetic_demo
+Naya Basti,27.729,85.3545,Saturday,Afternoon,Rainy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Saturday,Evening,Sunny,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Saturday,Evening,Cloudy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Saturday,Evening,Rainy,High,synthetic_demo
+Naya Basti,27.729,85.3545,Saturday,Night,Sunny,Low,synthetic_demo
+Naya Basti,27.729,85.3545,Saturday,Night,Cloudy,Low,synthetic_demo
+Naya Basti,27.729,85.3545,Saturday,Night,Rainy,Low,synthetic_demo
+Naya Basti,27.729,85.3545,Sunday,Morning,Sunny,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Sunday,Morning,Cloudy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Sunday,Morning,Rainy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Sunday,Afternoon,Sunny,Low,synthetic_demo
+Naya Basti,27.729,85.3545,Sunday,Afternoon,Cloudy,Low,synthetic_demo
+Naya Basti,27.729,85.3545,Sunday,Afternoon,Rainy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Sunday,Evening,Sunny,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Sunday,Evening,Cloudy,Medium,synthetic_demo
+Naya Basti,27.729,85.3545,Sunday,Evening,Rainy,High,synthetic_demo
+Naya Basti,27.729,85.3545,Sunday,Night,Sunny,Low,synthetic_demo
+Naya Basti,27.729,85.3545,Sunday,Night,Cloudy,Low,synthetic_demo
+Naya Basti,27.729,85.3545,Sunday,Night,Rainy,Low,synthetic_demo
+Kalanki,27.693,85.281,Monday,Morning,Sunny,High,synthetic_demo
+Kalanki,27.693,85.281,Monday,Morning,Cloudy,High,synthetic_demo
+Kalanki,27.693,85.281,Monday,Morning,Rainy,High,synthetic_demo
+Kalanki,27.693,85.281,Monday,Afternoon,Sunny,Medium,synthetic_demo
+Kalanki,27.693,85.281,Monday,Afternoon,Cloudy,Medium,synthetic_demo
+Kalanki,27.693,85.281,Monday,Afternoon,Rainy,High,synthetic_demo
+Kalanki,27.693,85.281,Monday,Evening,Sunny,High,synthetic_demo
+Kalanki,27.693,85.281,Monday,Evening,Cloudy,High,synthetic_demo
+Kalanki,27.693,85.281,Monday,Evening,Rainy,High,synthetic_demo
+Kalanki,27.693,85.281,Monday,Night,Sunny,Medium,synthetic_demo
+Kalanki,27.693,85.281,Monday,Night,Cloudy,Medium,synthetic_demo
+Kalanki,27.693,85.281,Monday,Night,Rainy,Medium,synthetic_demo
+Kalanki,27.693,85.281,Tuesday,Morning,Sunny,High,synthetic_demo
+Kalanki,27.693,85.281,Tuesday,Morning,Cloudy,High,synthetic_demo
+Kalanki,27.693,85.281,Tuesday,Morning,Rainy,High,synthetic_demo
+Kalanki,27.693,85.281,Tuesday,Afternoon,Sunny,Medium,synthetic_demo
+Kalanki,27.693,85.281,Tuesday,Afternoon,Cloudy,Medium,synthetic_demo
+Kalanki,27.693,85.281,Tuesday,Afternoon,Rainy,High,synthetic_demo
+Kalanki,27.693,85.281,Tuesday,Evening,Sunny,High,synthetic_demo
+Kalanki,27.693,85.281,Tuesday,Evening,Cloudy,High,synthetic_demo
+Kalanki,27.693,85.281,Tuesday,Evening,Rainy,High,synthetic_demo
+Kalanki,27.693,85.281,Tuesday,Night,Sunny,Medium,synthetic_demo
+Kalanki,27.693,85.281,Tuesday,Night,Cloudy,Medium,synthetic_demo
+Kalanki,27.693,85.281,Tuesday,Night,Rainy,Medium,synthetic_demo
+Kalanki,27.693,85.281,Wednesday,Morning,Sunny,High,synthetic_demo
+Kalanki,27.693,85.281,Wednesday,Morning,Cloudy,High,synthetic_demo
+Kalanki,27.693,85.281,Wednesday,Morning,Rainy,High,synthetic_demo
+Kalanki,27.693,85.281,Wednesday,Afternoon,Sunny,Medium,synthetic_demo
+Kalanki,27.693,85.281,Wednesday,Afternoon,Cloudy,Medium,synthetic_demo
+Kalanki,27.693,85.281,Wednesday,Afternoon,Rainy,High,synthetic_demo
+Kalanki,27.693,85.281,Wednesday,Evening,Sunny,High,synthetic_demo
+Kalanki,27.693,85.281,Wednesday,Evening,Cloudy,High,synthetic_demo
+Kalanki,27.693,85.281,Wednesday,Evening,Rainy,High,synthetic_demo
+Kalanki,27.693,85.281,Wednesday,Night,Sunny,Medium,synthetic_demo
+Kalanki,27.693,85.281,Wednesday,Night,Cloudy,Medium,synthetic_demo
+Kalanki,27.693,85.281,Wednesday,Night,Rainy,Medium,synthetic_demo
+Kalanki,27.693,85.281,Thursday,Morning,Sunny,High,synthetic_demo
+Kalanki,27.693,85.281,Thursday,Morning,Cloudy,High,synthetic_demo
+Kalanki,27.693,85.281,Thursday,Morning,Rainy,High,synthetic_demo
+Kalanki,27.693,85.281,Thursday,Afternoon,Sunny,Medium,synthetic_demo
+Kalanki,27.693,85.281,Thursday,Afternoon,Cloudy,Medium,synthetic_demo
+Kalanki,27.693,85.281,Thursday,Afternoon,Rainy,High,synthetic_demo
+Kalanki,27.693,85.281,Thursday,Evening,Sunny,High,synthetic_demo
+Kalanki,27.693,85.281,Thursday,Evening,Cloudy,High,synthetic_demo
+Kalanki,27.693,85.281,Thursday,Evening,Rainy,High,synthetic_demo
+Kalanki,27.693,85.281,Thursday,Night,Sunny,Medium,synthetic_demo
+Kalanki,27.693,85.281,Thursday,Night,Cloudy,Medium,synthetic_demo
+Kalanki,27.693,85.281,Thursday,Night,Rainy,Medium,synthetic_demo
+Kalanki,27.693,85.281,Friday,Morning,Sunny,High,synthetic_demo
+Kalanki,27.693,85.281,Friday,Morning,Cloudy,High,synthetic_demo
+Kalanki,27.693,85.281,Friday,Morning,Rainy,High,synthetic_demo
+Kalanki,27.693,85.281,Friday,Afternoon,Sunny,High,synthetic_demo
+Kalanki,27.693,85.281,Friday,Afternoon,Cloudy,High,synthetic_demo
+Kalanki,27.693,85.281,Friday,Afternoon,Rainy,High,synthetic_demo
+Kalanki,27.693,85.281,Friday,Evening,Sunny,High,synthetic_demo
+Kalanki,27.693,85.281,Friday,Evening,Cloudy,High,synthetic_demo
+Kalanki,27.693,85.281,Friday,Evening,Rainy,High,synthetic_demo
+Kalanki,27.693,85.281,Friday,Night,Sunny,Medium,synthetic_demo
+Kalanki,27.693,85.281,Friday,Night,Cloudy,Medium,synthetic_demo
+Kalanki,27.693,85.281,Friday,Night,Rainy,High,synthetic_demo
+Kalanki,27.693,85.281,Saturday,Morning,Sunny,Medium,synthetic_demo
+Kalanki,27.693,85.281,Saturday,Morning,Cloudy,Medium,synthetic_demo
+Kalanki,27.693,85.281,Saturday,Morning,Rainy,High,synthetic_demo
+Kalanki,27.693,85.281,Saturday,Afternoon,Sunny,Medium,synthetic_demo
+Kalanki,27.693,85.281,Saturday,Afternoon,Cloudy,Medium,synthetic_demo
+Kalanki,27.693,85.281,Saturday,Afternoon,Rainy,Medium,synthetic_demo
+Kalanki,27.693,85.281,Saturday,Evening,Sunny,High,synthetic_demo
+Kalanki,27.693,85.281,Saturday,Evening,Cloudy,High,synthetic_demo
+Kalanki,27.693,85.281,Saturday,Evening,Rainy,High,synthetic_demo
+Kalanki,27.693,85.281,Saturday,Night,Sunny,Low,synthetic_demo
+Kalanki,27.693,85.281,Saturday,Night,Cloudy,Low,synthetic_demo
+Kalanki,27.693,85.281,Saturday,Night,Rainy,Medium,synthetic_demo
+Kalanki,27.693,85.281,Sunday,Morning,Sunny,Medium,synthetic_demo
+Kalanki,27.693,85.281,Sunday,Morning,Cloudy,Medium,synthetic_demo
+Kalanki,27.693,85.281,Sunday,Morning,Rainy,High,synthetic_demo
+Kalanki,27.693,85.281,Sunday,Afternoon,Sunny,Medium,synthetic_demo
+Kalanki,27.693,85.281,Sunday,Afternoon,Cloudy,Medium,synthetic_demo
+Kalanki,27.693,85.281,Sunday,Afternoon,Rainy,Medium,synthetic_demo
+Kalanki,27.693,85.281,Sunday,Evening,Sunny,High,synthetic_demo
+Kalanki,27.693,85.281,Sunday,Evening,Cloudy,High,synthetic_demo
+Kalanki,27.693,85.281,Sunday,Evening,Rainy,High,synthetic_demo
+Kalanki,27.693,85.281,Sunday,Night,Sunny,Low,synthetic_demo
+Kalanki,27.693,85.281,Sunday,Night,Cloudy,Low,synthetic_demo
+Kalanki,27.693,85.281,Sunday,Night,Rainy,Medium,synthetic_demo

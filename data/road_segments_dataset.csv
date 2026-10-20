@@ -1,0 +1,9 @@
+segment_id,start_location,end_location,distance_km,data_source
+R001,Kumarigal,Chabahil,0.7,synthetic_prototype
+R002,Chabahil,Boudha,1.4,synthetic_prototype
+R003,Boudha,Jorpati,1.2,synthetic_prototype
+R004,Chabahil,Naya Basti,1.8,synthetic_prototype
+R005,Naya Basti,Boudha,1.5,synthetic_prototype
+R006,Naya Basti,Jorpati,2.0,synthetic_prototype
+R007,Chabahil,Kalanki,7.0,synthetic_prototype
+R008,Naya Basti,Kalanki,7.5,synthetic_prototype

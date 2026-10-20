@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build files
+dist/
+build/
+
+# Environment / secrets
+.env
+
+# Local configuration
+*.local.php
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
