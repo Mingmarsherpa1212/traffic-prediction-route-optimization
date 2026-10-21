@@ -113,7 +113,7 @@ traffic_prediction/
 | Phase | Status | Description                                |
 |-------|--------|--------------------------------------------|
 | 1     | ✅ Done | PHP PDO database connection                |
-| 2     | ⏳      | Locations API                              |
+| 2     | ✅ Done | Locations API                              |
 | 3     | ⏳      | Decision Tree ML (Rubix ML)                |
 | 4     | ⏳      | Dijkstra's algorithm + Route API           |
 | 5     | ⏳      | React frontend                             |
