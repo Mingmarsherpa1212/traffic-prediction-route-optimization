@@ -1,10 +1,7 @@
 <?php
 /**
  * Database Connection Test
- *
- * Traffic Level Prediction System — Phase 2
- * BCA 6th Semester Academic Project
- *
+ 
  * Tests whether PHP can connect to the traffic_prediction database.
  * Loads $pdo directly from database.php via require_once.
  *
