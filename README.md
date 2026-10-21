@@ -134,12 +134,3 @@ traffic_prediction/
 6. Train model: http://localhost/traffic_prediction/backend/ml/train_model.php
 7. Install React frontend: `cd frontend && npm install && npm run dev`
 
----
-
-## Database
-
-- **Host**: 127.0.0.1
-- **Port**: 3307 (XAMPP MariaDB default)
-- **Name**: traffic_prediction
-- **User**: root
-- **Password**: (empty)
