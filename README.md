@@ -113,7 +113,7 @@ traffic_prediction/
 | Phase | Status | Description                                |
 |-------|--------|--------------------------------------------|
 | 1     | ✅ Done | PHP PDO database connection                |
-| 2     | ⏳      | Locations API                              |
+| 2     | ✅ Done | Locations API                              |
 | 3     | ⏳      | Decision Tree ML (Rubix ML)                |
 | 4     | ⏳      | Dijkstra's algorithm + Route API           |
 | 5     | ⏳      | React frontend                             |
@@ -134,12 +134,3 @@ traffic_prediction/
 6. Train model: http://localhost/traffic_prediction/backend/ml/train_model.php
 7. Install React frontend: `cd frontend && npm install && npm run dev`
 
----
-
-## Database
-
-- **Host**: 127.0.0.1
-- **Port**: 3307 (XAMPP MariaDB default)
-- **Name**: traffic_prediction
-- **User**: root
-- **Password**: (empty)
