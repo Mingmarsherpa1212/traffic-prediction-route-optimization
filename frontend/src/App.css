@@ -1,0 +1,51 @@
+/* App.css — Traffic Level Prediction System */
+
+/* ── Leaflet map z-index fix ─────────────────────────────────────────────────
+   Leaflet's internal popup / tile layers use high z-index values.
+   Override so Bootstrap modals and dropdowns still appear on top. */
+.leaflet-pane         { z-index: 400 !important; }
+.leaflet-top,
+.leaflet-bottom       { z-index: 401 !important; }
+
+/* ── Map wrapper ─────────────────────────────────────────────────────────── */
+.map-wrapper {
+  width: 100%;
+}
+
+/* ── Smooth button ───────────────────────────────────────────────────────── */
+#predict-btn {
+  transition: background-color 0.2s ease, opacity 0.2s ease;
+}
+#predict-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.75;
+}
+
+/* ── Badge sizing ────────────────────────────────────────────────────────── */
+.badge {
+  font-size: 0.82rem;
+  border-radius: 6px;
+}
+
+/* ── Card header ─────────────────────────────────────────────────────────── */
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  font-size: 0.95rem;
+}
+
+/* ── Table ───────────────────────────────────────────────────────────────── */
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+/* ── Footer ──────────────────────────────────────────────────────────────── */
+footer {
+  font-size: 0.82rem;
+}
+
+/* ── Responsive ──────────────────────────────────────────────────────────── */
+@media (max-width: 576px) {
+  h1.h4 { font-size: 1rem; }
+}

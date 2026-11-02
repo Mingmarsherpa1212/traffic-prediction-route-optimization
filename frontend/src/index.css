@@ -1,0 +1,14 @@
+/* index.css — global reset/base for Traffic Prediction app */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #f0f2f5;
+}
