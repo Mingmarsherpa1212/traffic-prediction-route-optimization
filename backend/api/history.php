@@ -2,11 +2,11 @@
 /**
  * Prediction History API
  *
- * Traffic Level Prediction System - Phase 7
+ * Traffic Level Prediction System - Phase 7 & 8
  * BCA 6th Semester Academic Project
  *
- * GET  /history.php          - Returns recent predictions (newest first)
- * POST /history.php          - Saves a new prediction record
+ * GET  /history.php          - Returns recent predictions (newest first) — public
+ * POST /history.php          - Saves a new prediction record — requires login
  *
  * POST body (JSON):
  *   {
@@ -32,17 +32,8 @@
  *   ]
  */
 
-header('Content-Type: application/json; charset=utf-8');
-header('Access-Control-Allow-Origin: *');
-header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
-header('Access-Control-Allow-Headers: Content-Type');
-
-// Handle preflight
-if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
-    http_response_code(200);
-    exit;
-}
-
+// Use session-aware CORS (required since Phase 8 for credential-based auth)
+require_once __DIR__ . '/../config/session.php';
 require_once __DIR__ . '/../config/database.php';
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -80,9 +71,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-// POST — Save a new prediction
+// POST — Save a new prediction (requires login)
 // ─────────────────────────────────────────────────────────────────────────────
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
+    // Auth check — user must be logged in to save predictions
+    if (empty($_SESSION['user_id'])) {
+        http_response_code(401);
+        echo json_encode(['success' => false, 'message' => 'You must be logged in to save predictions.']);
+        exit;
+    }
     try {
         $body = json_decode(file_get_contents('php://input'), true);
 

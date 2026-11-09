@@ -1,76 +1,57 @@
 # Traffic Level Prediction System
-**BCA 6th Semester Academic Project**
+## BCA 6th Semester Academic Project
 
-A web-based traffic prediction system that combines a **Decision Tree classifier** (Rubix ML) with **Dijkstra's shortest path algorithm** to predict traffic levels and recommend optimal routes across six locations in Kathmandu.
+> **Important:** All traffic data and predictions are based on **synthetic/demo data only**.  
+> This is NOT a real-time traffic system.
+
+---
+
+## Project Overview
+
+A full-stack academic prototype that combines:
+- **Decision Tree** (Rubix ML) to predict traffic levels (Low / Medium / High)
+- **Dijkstra's Algorithm** to find the lowest traffic-adjusted-cost route
+- **Leaflet + OpenStreetMap** to visualise locations and routes on a map
+- **React + Bootstrap** for the frontend UI
+- **PHP 8 + PDO** for the backend APIs
+- **MySQL (MariaDB)** for persistent data storage
 
 ---
 
 ## Technology Stack
 
-| Layer        | Technology                          |
-|--------------|-------------------------------------|
-| Frontend     | React + JavaScript + CSS/Bootstrap  |
-| Backend      | PHP 8.1                             |
-| Database     | MariaDB 10.4 (XAMPP)                |
-| ML Library   | Rubix ML (Decision Tree)            |
-| Algorithm    | Dijkstra's Shortest Path            |
-| Map          | Leaflet.js + OpenStreetMap          |
-| Environment  | XAMPP (localhost)                   |
-
----
-
-## Locations
-
-| ID | Name        | Latitude    | Longitude   |
-|----|-------------|-------------|-------------|
-| 1  | Kumarigal   | 27.7167000  | 85.3436000  |
-| 2  | Chabahil    | 27.7172000  | 85.3478000  |
-| 3  | Boudha      | 27.7215000  | 85.3620000  |
-| 4  | Jorpati     | 27.7240000  | 85.3710000  |
-| 5  | Naya Basti  | 27.7290000  | 85.3545000  |
-| 6  | Kalanki     | 27.6930000  | 85.2810000  |
-
----
-
-## Road Graph (road_segments table)
-
-| Segment | From       | To          | Distance (km) |
-|---------|------------|-------------|----------------|
-| R001    | Kumarigal  | Chabahil    | 0.70           |
-| R002    | Chabahil   | Boudha      | 1.40           |
-| R003    | Boudha     | Jorpati     | 1.20           |
-| R004    | Chabahil   | Naya Basti  | 1.80           |
-| R005    | Naya Basti | Boudha      | 1.50           |
-| R006    | Naya Basti | Jorpati     | 2.00           |
-| R007    | Chabahil   | Kalanki     | 7.00           |
-| R008    | Naya Basti | Kalanki     | 7.50           |
-
----
-
-## Traffic Cost Model
-
-| Traffic Level | Cost Multiplier |
-|---------------|----------------|
-| Low           | 1              |
-| Medium        | 3              |
-| High          | 6              |
-
-**Dijkstra edge weight formula:**
-```
-edge_cost = distance_km × traffic_cost_multiplier
-```
+| Layer        | Technology                     |
+|-------------|-------------------------------|
+| Frontend    | React 18, Vite, Bootstrap 5    |
+| Map         | Leaflet 1.9, OpenStreetMap     |
+| Backend     | PHP 8.1, PDO prepared statements |
+| ML Library  | Rubix ML 2.6 (ClassificationTree) |
+| Database    | MariaDB 10.4 (XAMPP, port 3307) |
+| Environment | XAMPP on Windows               |
 
 ---
 
 ## System Flow
 
-1. User selects: Start Location, Destination, Day, Time Period, Weather
-2. Decision Tree predicts traffic level for **each location** (Low / Medium / High)
-3. Traffic color is displayed on map (Green / Yellow / Red)
-4. Dijkstra calculates the lowest-cost route using traffic-adjusted weights
-5. Recommended route is drawn on the map
-
-> ⚠️ **Note**: Traffic data is synthetic/demo data. This is NOT a real-time navigation system.
+```
+User fills form
+  Start Location + Destination + Day + Time Period + Weather
+        ↓
+React calls route.php (single API call)
+        ↓
+PHP: Decision Tree predicts traffic for ALL 6 locations
+        ↓
+Traffic Level → Cost Weight: Low=1  Medium=3  High=6
+        ↓
+PHP: Dijkstra's Algorithm builds graph with traffic-adjusted edge costs
+     edge_cost = distance_km × traffic_weight_of_destination
+        ↓
+PHP returns: route[] + all_traffic_levels{} + steps[] + totals
+        ↓
+React → Leaflet map: coloured circle markers (green/yellow/red) + blue polyline
+React → ResultPanel: traffic badge + route + step-by-step table
+React → (if logged in) saves prediction to predictions table
+```
 
 ---
 
@@ -79,58 +60,129 @@ edge_cost = distance_km × traffic_cost_multiplier
 ```
 traffic_prediction/
 ├── backend/
-│   ├── config/
-│   │   ├── database.php        # PDO connection (Phase 1)
-│   │   └── helpers.php         # API response helpers
-│   ├── api/
-│   │   ├── test_connection.php # Phase 1 connection test
-│   │   ├── locations.php       # Phase 2: Locations API
-│   │   ├── predict.php         # Phase 3: ML prediction API
-│   │   ├── route.php           # Phase 4: Dijkstra route API
-│   │   ├── history.php         # Phase 7: Prediction history
-│   │   ├── register.php        # Phase 8: User registration
-│   │   └── login.php           # Phase 8: User login
 │   ├── algorithm/
-│   │   └── dijkstra.php        # Phase 4: Dijkstra's algorithm
+│   │   └── dijkstra.php          Pure PHP Dijkstra implementation
+│   ├── api/
+│   │   ├── auth/
+│   │   │   ├── login.php         POST — login with password_verify()
+│   │   │   ├── logout.php        POST — destroy session
+│   │   │   ├── me.php            GET  — session check
+│   │   │   └── register.php      POST — register with password_hash()
+│   │   ├── history.php           GET/POST — prediction history
+│   │   ├── locations.php         GET  — all locations with coordinates
+│   │   ├── predict.php           GET  — single location prediction
+│   │   ├── route.php             GET  — full route + all predictions
+│   │   └── test_connection.php   GET  — DB connection test
+│   ├── config/
+│   │   ├── database.php          PDO connection (port 3307)
+│   │   ├── helpers.php           Shared helpers
+│   │   └── session.php           Session start + CORS for auth endpoints
 │   └── ml/
-│       ├── train_model.php     # Phase 3: Train Decision Tree
-│       └── predict.php         # Phase 3: Run prediction (internal)
+│       └── train_model.php       Train Decision Tree and save model
+├── data/
+│   └── traffic_model.rbx         Saved trained model (Rubix ML)
 ├── database/
-│   ├── 001_create_users_table.sql
-│   └── run_migrations.php
-├── data/                       # Trained ML model storage (.rbx file)
-├── frontend/                   # React app
+│   └── 001_create_users_table.sql
+├── frontend/
 │   └── src/
-│       ├── components/
-│       └── pages/
+│       ├── api.js                All fetch calls to PHP backend
+│       ├── App.jsx               Main app — state, layout, auth
+│       ├── App.css               Custom styles + Leaflet z-index fix
+│       └── components/
+│           ├── AuthForm.jsx      Login / Register tab card
+│           ├── MapView.jsx       Leaflet map with markers + polyline
+│           ├── PredictionForm.jsx Form with dynamic location dropdowns
+│           ├── PredictionHistory.jsx History table
+│           └── ResultPanel.jsx   Traffic badge + route + steps table
 └── README.md
 ```
 
 ---
 
-## Development Phases
+## How to Run
 
-| Phase | Status | Description                                |
-|-------|--------|--------------------------------------------|
-| 1     | ✅ Done | PHP PDO database connection                |
-| 2     | ✅ Done | Locations API                              |
-| 3     | ⏳      | Decision Tree ML (Rubix ML)                |
-| 4     | ⏳      | Dijkstra's algorithm + Route API           |
-| 5     | ⏳      | React frontend                             |
-| 6     | ⏳      | Leaflet map integration                    |
-| 7     | ⏳      | Prediction history                         |
-| 8     | ⏳      | Login/Register (users table)               |
-| 9     | ⏳      | Full integration testing                   |
+### Prerequisites
+- XAMPP with Apache and MySQL running
+- Node.js 20+
+
+### 1. Start XAMPP
+Open XAMPP Control Panel → Start **Apache** → Start **MySQL**
+
+### 2. Train the ML Model
+Open in browser:
+```
+http://localhost/traffic_prediction/backend/ml/train_model.php
+```
+Run once — saves `data/traffic_model.rbx`.
+
+### 3. Start the React Frontend
+```bash
+cd c:\xampp\htdocs\traffic_prediction\frontend
+npm run dev
+```
+
+### 4. Open the App
+```
+http://localhost:5173
+```
 
 ---
 
-## Local Setup
+## API Endpoints
 
-1. Start XAMPP (Apache + MySQL)
-2. Ensure database `traffic_prediction` exists with tables
-3. Run migration: http://localhost/traffic_prediction/database/run_migrations.php
-4. Test connection: http://localhost/traffic_prediction/backend/api/test_connection.php
-5. Install Rubix ML: `composer require rubix/ml` inside `backend/ml/`
-6. Train model: http://localhost/traffic_prediction/backend/ml/train_model.php
-7. Install React frontend: `cd frontend && npm install && npm run dev`
+| Method | URL | Description | Auth |
+|--------|-----|-------------|------|
+| GET | `/api/locations.php` | All 6 locations with coordinates | Public |
+| GET | `/api/predict.php?location=&day=&time_period=&weather=` | Predict traffic for one location | Public |
+| GET | `/api/route.php?start=&destination=&day=&time_period=&weather=` | Full route + all predictions | Public |
+| GET | `/api/history.php` | Recent 20 predictions | Public |
+| POST | `/api/history.php` | Save a prediction | **Login required** |
+| GET | `/api/auth/me.php` | Check session | — |
+| POST | `/api/auth/register.php` | Create account | — |
+| POST | `/api/auth/login.php` | Login | — |
+| POST | `/api/auth/logout.php` | Logout | — |
 
+---
+
+## Prototype Traffic Cost Weights
+
+| Traffic Level | Decision Tree Output | Dijkstra Cost Weight |
+|--------------|---------------------|---------------------|
+| Low          | Low                 | ×1                  |
+| Medium       | Medium              | ×3                  |
+| High         | High                | ×6                  |
+
+**Edge cost formula:** `distance_km × traffic_weight_of_destination_node`
+
+---
+
+## Locations (Prototype Road Network)
+
+| ID | Location    | Latitude  | Longitude |
+|----|-------------|-----------|-----------|
+| 1  | Kumarigal   | 27.7167   | 85.3436   |
+| 2  | Chabahil    | 27.7172   | 85.3478   |
+| 3  | Boudha      | 27.7215   | 85.3620   |
+| 4  | Jorpati     | 27.7240   | 85.3710   |
+| 5  | Naya Basti  | 27.7290   | 85.3545   |
+| 6  | Kalanki     | 27.6930   | 85.2810   |
+
+---
+
+## Security Features (Phase 8)
+
+- Passwords stored using `password_hash(PASSWORD_DEFAULT)` — bcrypt
+- Login uses `password_verify()` — no plain-text comparison
+- `session_regenerate_id(true)` on login — prevents session fixation
+- HttpOnly session cookie — JavaScript cannot access it
+- Duplicate email registration blocked with 409 Conflict
+- History POST endpoint requires valid session (401 if not logged in)
+- PDO prepared statements throughout — no SQL injection possible
+
+---
+
+## Academic Disclaimer
+
+This project uses **504 synthetic/demo traffic records** for model training.  
+Predictions do **not** represent real-world or live traffic conditions.  
+The route costs use simplified prototype weights for academic demonstration only.

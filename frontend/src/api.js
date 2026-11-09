@@ -1,56 +1,90 @@
 // API base URL — PHP backend running on XAMPP Apache
 const API_BASE = "http://localhost/traffic_prediction/backend/api";
 
-/**
- * Fetch all locations from the locations API.
- * Returns: [{ id, location_name, latitude, longitude }, ...]
- */
+// All fetch calls that involve cookies (auth) must use credentials: 'include'
+const CREDS = { credentials: "include" };
+
+// ── Locations ─────────────────────────────────────────────────────────────────
 export async function fetchLocations() {
-  const response = await fetch(`${API_BASE}/locations.php`);
-  if (!response.ok) throw new Error("Failed to load locations.");
-  return response.json();
+  const res = await fetch(`${API_BASE}/locations.php`);
+  if (!res.ok) throw new Error("Failed to load locations.");
+  return res.json();
 }
 
-/**
- * Get the optimal route between two locations.
- * Internally runs Decision Tree prediction + Dijkstra's algorithm.
- * Returns full route result including all_traffic_levels.
- */
+// ── Route + Traffic Prediction ────────────────────────────────────────────────
 export async function fetchRoute({ start, destination, day, time_period, weather }) {
   const params = new URLSearchParams({ start, destination, day, time_period, weather });
-  const response = await fetch(`${API_BASE}/route.php?${params}`);
-  if (!response.ok) {
-    const err = await response.json();
+  const res = await fetch(`${API_BASE}/route.php?${params}`);
+  if (!res.ok) {
+    const err = await res.json();
     throw new Error(err.message || "Route calculation failed.");
   }
-  return response.json();
+  return res.json();
 }
 
-/**
- * Fetch recent prediction history (newest first).
- * Returns: [{ id, location_name, day, time_period, weather, predicted_level, created_at }, ...]
- */
+// ── Prediction History ────────────────────────────────────────────────────────
 export async function fetchHistory(limit = 20) {
-  const response = await fetch(`${API_BASE}/history.php?limit=${limit}`);
-  if (!response.ok) throw new Error("Failed to load prediction history.");
-  return response.json();
+  const res = await fetch(`${API_BASE}/history.php?limit=${limit}`, CREDS);
+  if (!res.ok) throw new Error("Failed to load prediction history.");
+  return res.json();
 }
 
-/**
- * Save a prediction record to the database.
- * Called automatically after each successful route+prediction.
- *
- * @param {object} data - { location_id, day, time_period, weather, predicted_level }
- */
 export async function savePrediction(data) {
-  const response = await fetch(`${API_BASE}/history.php`, {
+  const res = await fetch(`${API_BASE}/history.php`, {
+    ...CREDS,
     method:  "POST",
     headers: { "Content-Type": "application/json" },
     body:    JSON.stringify(data),
   });
-  // Non-blocking — log error but don't throw (UI should still show results)
-  if (!response.ok) {
-    console.warn("[TrafficPrediction] Could not save prediction to history:", await response.text());
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}));
+    // 401 means not logged in — not a crash, just skip saving
+    if (res.status === 401) return { success: false, notLoggedIn: true };
+    console.warn("[TrafficPrediction] savePrediction failed:", err.message);
   }
-  return response.json();
+  return res.json().catch(() => ({}));
+}
+
+// ── Authentication ────────────────────────────────────────────────────────────
+
+/** Check if the user is currently logged in (session check). */
+export async function fetchMe() {
+  const res = await fetch(`${API_BASE}/auth/me.php`, CREDS);
+  if (!res.ok) return { logged_in: false };
+  return res.json();
+}
+
+/** Register a new account. */
+export async function register({ username, email, password }) {
+  const res = await fetch(`${API_BASE}/auth/register.php`, {
+    ...CREDS,
+    method:  "POST",
+    headers: { "Content-Type": "application/json" },
+    body:    JSON.stringify({ username, email, password }),
+  });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.message || "Registration failed.");
+  return data;
+}
+
+/** Log in with email + password. */
+export async function login({ email, password }) {
+  const res = await fetch(`${API_BASE}/auth/login.php`, {
+    ...CREDS,
+    method:  "POST",
+    headers: { "Content-Type": "application/json" },
+    body:    JSON.stringify({ email, password }),
+  });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.message || "Login failed.");
+  return data;
+}
+
+/** Log out the current user. */
+export async function logout() {
+  const res = await fetch(`${API_BASE}/auth/logout.php`, {
+    ...CREDS,
+    method: "POST",
+  });
+  return res.json();
 }
